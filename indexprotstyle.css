@@ -20,6 +20,18 @@ nav{
          font-weight: 700px;
          padding: 15px 35px;
 }
+.sectiontitle{
+        color:#181818;
+        text-align:center;
+        Sans;
+        font-size:35px;
+        font-weight: 700px;
+}
+.section-discription{
+    color:#757575;
+    text-align: center;
+    font-size: 10px;
+}
 .nav title {
          color:#181818
  font-size:45px;
@@ -40,15 +52,43 @@ nav a{
 /*header related style*/
 .header{
 background-color:#e7e2df;
-background-image: url("images/header_bg.png")
-background-repeat:none;
+background-image: url("images/header_bg.png");
+background-repeat:no-repeat;
+background-position:bottom right;
 }
 .banner1{ 
-         padding:30px 30px 30px 150px;
+         padding:30px 30px 0px 150px;
          display: flex;
          align-items: center;
+         justify-content:space-between;
 }
 .banner1.hardyphoto{
          width: 500px;
 
+}
+.bannergreet{
+        font-size: 45px;
+        font-family:'Lato', sans-serif;
+        color:#474747
+        margin: bottom 0;
+}
+.bannername{
+         font-size: 70px;
+         font-weight:600px ;
+        margin-top:5px; 
+}
+.bannerds{
+          color: #757575;
+         font-size: 18px;
+         font-weight: 400;
+}
+/* main section style*/
+
+
+/*About section style */
+.about{
+         padding:130px;
+         border-radius: 10px;
+         background: #fff8f3;
+         margin:130px 0 ;
 }
