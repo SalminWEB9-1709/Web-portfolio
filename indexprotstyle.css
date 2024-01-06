@@ -83,7 +83,11 @@ background-position:bottom right;
          font-weight: 400;
 }
 /* main section style*/
+main{
+         max-width: 1140px;
+          margin:0 auto;
 
+}
 
 /*About section style */
 .about{
@@ -91,4 +95,11 @@ background-position:bottom right;
          border-radius: 10px;
          background: #fff8f3;
          margin:130px 0 ;
+}
+.aboutinfo{
+         display:flex;
+         justify-content: space-around;
+         }
+.about-info{
+         text-align: center;
 }
