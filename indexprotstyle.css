@@ -9,6 +9,7 @@ nav{
     display: flex; 
     justify-content: space-between;
     align-items:center ;
+    margin:0 200px;
 }
 .button{
          border-radius: 5px;
@@ -35,4 +36,19 @@ nav li {
 nav a{
          text-decoration: none;
          color: #474747;
+}
+/*header related style*/
+.header{
+background-color:#e7e2df;
+background-image: url("images/header_bg.png")
+background-repeat:none;
+}
+.banner1{ 
+         padding:30px 30px 30px 150px;
+         display: flex;
+         align-items: center;
+}
+.banner1.hardyphoto{
+         width: 500px;
+
 }
